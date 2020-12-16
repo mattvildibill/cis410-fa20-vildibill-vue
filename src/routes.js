@@ -8,9 +8,12 @@ import Cars from './components/Cars.vue';
 import CarsDetail from './components/CarsDetail.vue';
 import NotFound from './components/NotFound.vue';
 import ReviewCreate from './components/ReviewCreate.vue';
-import Signup from './components/Signup.vue';
+import Signup from './components/SignUp.vue'; 
+
+//here 
 
 Vue.use(VueRouter);
+
 
 const routes = [
     {path: '/', component: Home},
