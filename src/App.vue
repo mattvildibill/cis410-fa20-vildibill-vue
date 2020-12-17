@@ -25,7 +25,11 @@ export default {
   },
   components:{
     "app-header": Header
-  }
+    },
+    created(){
+      console.log("App created")
+      this.$store.dispatch("getCars")
+    }
 }
 </script>
 

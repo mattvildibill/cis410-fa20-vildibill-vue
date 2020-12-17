@@ -19,7 +19,7 @@ export default new Vuex.Store({
             state.user = myUser
         },
         storeCars(state, myCars){
-            state.clothes = myCars
+            state.cars = myCars
         },
         clearAuthData(state){
             state.token = null;
